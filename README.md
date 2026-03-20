@@ -5,6 +5,7 @@ As LLMs are increasingly integrated into applications, they face risks from "jai
 ## Model Architectures
 The project compares three distinct stages of model evolution to establish a performance baseline:\
 | Model | Embedding | Sequence Model | Core Components | 
+| ----------- | ----------- | ----------- | ----------- |
 | Baseline 1 | GloVe (Static) | Bi-LSTM | 300d word vectors + PyTorch Bi-LSTM |
 | Baseline 2 | MiniLM (Dynamic) | Bi-LSTM | Transformer features without Attention | 
 | Final Model | MiniLM (Fine-tuned) | Bi-LSTM + Attention | Custom Attention mechanism + unfreezing last 3 layers |
