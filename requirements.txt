@@ -1,0 +1,23 @@
+# Core Deep Learning
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch
+torchvision
+torchaudio
+
+# NLP & Transformers
+transformers>=4.30.0
+sentence-transformers
+huggingface-hub
+
+# Data Processing & Numerical Computing
+pandas>=1.5.0
+numpy>=1.20.0
+
+# Evaluation & Visual Analytics
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm
+requests
