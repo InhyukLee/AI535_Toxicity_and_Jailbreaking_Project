@@ -43,3 +43,11 @@ python train_bilstm_miniLM.py
 # Run comprehensive evaluation and comparison
 python evaluation.py
 ```
+You can run the evaluation scripts:
+```
+# Compare Three Different Model
+python evaluation.py
+
+# Show Example Case
+python case_extract.py
+```
